@@ -1,0 +1,76 @@
+﻿生成启动时间为 2016/1/22 15:36:47。
+     1>项目“E:\blockchain\beta 2.0\MySQLtest1\BitcoinAnalysis\BitcoinAnalysis.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\blockchain\beta 2.0\MySQLtest1\packages\LevelDB.1.16.0.5\build\native\..\..\lib\native\src\port\win" /I"E:\blockchain\beta 2.0\MySQLtest1\packages\Crc32C.1.0.4\build\native\..\..\lib\native\include" /I"E:\blockchain\beta 2.0\MySQLtest1\packages\Snappy.1.1.1.7\build\native\..\..\lib\native\include" /I"E:\blockchain\beta 2.0\MySQLtest1\packages\LevelDB.1.16.0.5\build\native\..\..\lib\native\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D CRC32C_STATIC /D SNAPPY_STATIC /D LEVELDB_STATIC /D LEVELDB_PLATFORM_WINDOWS /D LEVELDB_WITH_SNAPPY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "E:\blockchain\beta 2.0\MySQLtest1\packages\LevelDB.1.16.0.5\build\native\..\..\lib\native\src\leveldb-single-file.cpp"
+         leveldb-single-file.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\blockchain\beta 2.0\MySQLtest1\packages\Crc32C.1.0.4\build\native\..\..\lib\native\include" /I"E:\blockchain\beta 2.0\MySQLtest1\packages\Snappy.1.1.1.7\build\native\..\..\lib\native\include" /I"E:\blockchain\beta 2.0\MySQLtest1\packages\LevelDB.1.16.0.5\build\native\..\..\lib\native\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D CRC32C_STATIC /D SNAPPY_STATIC /D LEVELDB_STATIC /D LEVELDB_PLATFORM_WINDOWS /D LEVELDB_WITH_SNAPPY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "E:\blockchain\beta 2.0\MySQLtest1\packages\Snappy.1.1.1.7\build\native\..\..\lib\native\src\snappy-single-file.cpp" "E:\blockchain\beta 2.0\MySQLtest1\packages\Crc32C.1.0.4\build\native\..\..\lib\native\src\crc32c.cpp"
+         crc32c.cpp
+         snappy-single-file.cpp
+     1>e:\blockchain\beta 2.0\mysqltest1\packages\snappy.1.1.1.7\lib\native\include\snappy-stubs-internal.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\blockchain\beta 2.0\MySQLtest1\packages\Crc32C.1.0.4\build\native\..\..\lib\native\include" /I"E:\blockchain\beta 2.0\MySQLtest1\packages\Snappy.1.1.1.7\build\native\..\..\lib\native\include" /I"E:\blockchain\beta 2.0\MySQLtest1\packages\LevelDB.1.16.0.5\build\native\..\..\lib\native\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D CRC32C_STATIC /D SNAPPY_STATIC /D LEVELDB_STATIC /D LEVELDB_PLATFORM_WINDOWS /D LEVELDB_WITH_SNAPPY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt console.cpp
+         console.cpp
+     1>E:\blockchain\beta 2.0\MySQLtest1\packages\LevelDB.1.16.0.5\lib\native\include\leveldb/slice.h(97): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\EntityProcess.h(33): warning C4267: “初始化”: 从“size_t”转换到“unit32”，可能丢失数据
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\TransactionProcess.h(28): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\TransactionProcess.h(28): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\TransactionProcess.h(34): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : 参见“gmtime”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\TransactionProcess.h(266): warning C4267: “初始化”: 从“size_t”转换到“unit32”，可能丢失数据
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\TransactionProcess.h(268): warning C4996: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring(1798) : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(282): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(342): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(407): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(459): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(477): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(524): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(542): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(571): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(602): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(634): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(666): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(698): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(730): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(762): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(794): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(825): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\Statistical.h(856): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>e:\blockchain\beta 2.0\mysqltest1\bitcoinanalysis\unzipBlocks.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\blockchain\beta 2.0\MySQLtest1\x64\Debug\BitcoinAnalysis.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\MySQL Server 5.6\lib" libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib shlwapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\blockchain\beta 2.0\MySQLtest1\x64\Debug\BitcoinAnalysis.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\blockchain\beta 2.0\MySQLtest1\x64\Debug\BitcoinAnalysis.lib" /MACHINE:X64 "x64\Debug\leveldb-single-file.obj"
+         "x64\Debug\snappy-single-file.obj"
+         x64\Debug\crc32c.obj
+         x64\Debug\console.obj
+         BitcoinAnalysis.vcxproj -> E:\blockchain\beta 2.0\MySQLtest1\x64\Debug\BitcoinAnalysis.exe
+     1>已完成生成项目“E:\blockchain\beta 2.0\MySQLtest1\BitcoinAnalysis\BitcoinAnalysis.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.94
